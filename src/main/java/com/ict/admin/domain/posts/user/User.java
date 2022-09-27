@@ -3,7 +3,8 @@ import com.ict.admin.domain.posts.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-
+import org.hibernate.annotations.Table;
+import com.ict.admin.domain.posts.Posts;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
